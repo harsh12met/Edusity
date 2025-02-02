@@ -7,6 +7,7 @@ import About from './component/about/About'
 import Campus from './component/campus/Campus'
 import Testimonial from './component/testimonials/Testimonial'
 import Contact from './component/contact/Contact'
+import Footer from './component/footer/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Testimonial/>
         <Title subtitle='Contact Us ' title='Get in Touch'></Title>
         <Contact/>
+        <Footer/>
       </div>
     </div>
   )
